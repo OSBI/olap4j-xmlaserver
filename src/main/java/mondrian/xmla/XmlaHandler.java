@@ -784,11 +784,7 @@ public class XmlaHandler {
             writer.endDocument();
         } finally {
             if (result != null) {
-                try {
-                    result.close();
-                } catch (SQLException e) {
-                    // ignore
-                }
+              // result.close();
             }
         }
     }
@@ -1368,25 +1364,13 @@ public class XmlaHandler {
                 e);
         } finally {
             if (resultSet != null) {
-                try {
-                    resultSet.close();
-                } catch (SQLException e) {
-                    // ignore
-                }
+              // resultSet.close();
             }
             if (statement != null) {
-                try {
-                    statement.close();
-                } catch (SQLException e) {
-                    // ignore
-                }
+              // statement.close();
             }
             if (connection != null) {
-                try {
-                    connection.close();
-                } catch (SQLException e) {
-                    // ignore
-                }
+              //  connection.close();
             }
         }
     }
@@ -1701,25 +1685,13 @@ public class XmlaHandler {
         } finally {
             if (!success) {
                 if (cellSet != null) {
-                    try {
-                        cellSet.close();
-                    } catch (SQLException e) {
-                        // ignore
-                    }
+                  //cellSet.close();
                 }
                 if (statement != null) {
-                    try {
-                        statement.close();
-                    } catch (SQLException e) {
-                        // ignore
-                    }
+                  //statement.close();
                 }
                 if (connection != null) {
-                    try {
-                        connection.close();
-                    } catch (SQLException e) {
-                        // ignore
-                    }
+                  //connection.close();
                 }
             }
         }
@@ -1799,7 +1771,7 @@ public class XmlaHandler {
         }
 
         public void close() throws SQLException {
-            cellSet.getStatement().getConnection().close();
+           // cellSet.getStatement().getConnection().close();
         }
 
         private static Property rename(

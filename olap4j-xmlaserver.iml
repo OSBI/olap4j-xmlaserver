@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="olap4j-xmlaserver-TRUNK-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.olap4j.xmlaserver" bundleVersion="0.0.0.TRUNK-SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="XML for Analysis (XMLA) server based upon olap4j connections" />
+          <property key="Bundle-Vendor" value="olap4j" />
+          <property key="Bundle-DocURL" value="http://www.olap4j.org" />
+          <property key="Export-Package" value="mondrian.xmla.impl,mondrian.xmla,org.olap4j.xmla.server.impl" />
+          <property key="Bundle-Name" value="olap4j-xmlaserver" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.14" level="project" />
+    <orderEntry type="library" name="Maven: commons-dbcp:commons-dbcp:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-pool:commons-pool:1.2" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: xerces:xercesImpl:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.olap4j:olap4j:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: net.java.dev.javacc:javacc:5.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.4" level="project" />
+  </component>
+</module>

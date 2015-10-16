@@ -4,7 +4,7 @@
 
   <!-- The basics. -->
   <groupId>org.olap4j</groupId>
-  <artifactId>olap4j-xmlaserver</artifactId>
+  <artifactId>olap4j-xmlaserver-noclose</artifactId>
   <version>TRUNK-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
